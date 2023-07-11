@@ -3,7 +3,17 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-// Dimensões do OLED (128x64)
+/*/
+Por padrão, a biblioteca Adafruit_SSD1306 utiliza a biblioteca Wire para a comunicação I2C. Portanto, é necessário conectar os pinos SDA (Serial Data) e SCL (Serial Clock)
+do display OLED aos respectivos pinos do Arduino que são responsáveis pela comunicação I2C. Logo, a pinagem é:
+
+VCC   -->  5V
+GND   -->  GND
+SCL   -->  A5 (ou SCL na placa Arduino Uno)
+SDA   -->  A4 (ou SDA na placa Arduino Uno)
+
+Dimensões do OLED (128x64) /*/
+
 #define SCREEN_WIDTH 128 
 #define SCREEN_HEIGHT 64 
 
