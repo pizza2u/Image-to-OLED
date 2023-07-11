@@ -10,6 +10,9 @@ Por se tratar de um display OLED 0,96'', as dimensões ideiais é 128x64, dessa 
 - A matriz de pixels de um bitmap possui uma correspondência direta com a resolução da imagem, ou seja, o número de pixels ao longo de suas dimensões horizontal e vertical. Quanto maior a resolução, maior será a quantidade de pixels e, consequentemente, maior a quantidade de informações necessárias para representar a imagem.
 - A conversão para bitmap é necessária porque os displays OLED geralmente não têm capacidade de processar diretamente formatos de imagem complexos, como JPEG ou PNG. Ao converter a imagem para bitmap, você simplifica os dados da imagem para um formato que o display pode interpretar e exibir corretamente.
 
+
+Para a conversão do bitmap em matrizes de bytes para uso do OLED no ARDUINO foi utilizado o site [Image2cpp](https://diyusthad.com/image2cpp)
+
 <p align="center">
  <img src= "https://github.com/pizza2u/Image-to-oled/blob/main/Output/d.jpeg" width="500" height="300">
 </p>
