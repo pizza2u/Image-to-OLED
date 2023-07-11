@@ -1,4 +1,4 @@
 # Exibindo imagem em OLED 0,96''
 <p align="center">
-  <img src="Output/b.jpg" />
+ <img src= "https://github.com/pizza2u/Image-to-oled/blob/main/Output/b.jpeg">
 </p>
