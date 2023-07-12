@@ -17,7 +17,7 @@ Por se tratar de um display OLED 0,96'', as dimensões ideiais é 128x64, dessa 
  <img src= "https://github.com/pizza2u/Image-to-oled/blob/main/Output/d.jpeg" width="500" height="300">
 </p>
 
-O projeto se deu em 4 passos:
+### O projeto se deu em 4 passos:
 1. Conversão da imagem RGB para Bitmap
 2. Redimensionamento da imagem (Não totalmente necessário pois o site que converte bitmap para bytes já tem essa opção, mas torna agil o dimensionamento pronto)
 3. Conversão Bitmap para array de bytes
