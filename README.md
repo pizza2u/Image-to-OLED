@@ -18,7 +18,7 @@ Por se tratar de um display OLED 0,96'', as dimensões ideiais é 128x64, dessa 
 </p>
 
 O projeto se deu em 4 passos:
-. Conversão da imagem RGB para Bitmap
-. Redimensionamento da imagem (Não totalmente necessário pois o site que converte bitmap para bytes já tem essa opção, mas torna agil o dimensionamento pronto)
-. Conversão Bitmap para array de bytes
-. Código com o array para o arduino conectado ao OLED
+1. Conversão da imagem RGB para Bitmap
+2. Redimensionamento da imagem (Não totalmente necessário pois o site que converte bitmap para bytes já tem essa opção, mas torna agil o dimensionamento pronto)
+3. Conversão Bitmap para array de bytes
+4. Código com o array para o arduino conectado ao OLED
